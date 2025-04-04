@@ -69,9 +69,9 @@ render() {
 
             <div className="btn">
                 {/*리액트 주의사항 함수는 콜백함수 형태로 하자*/}
-                <img className="BBB S" src="/download.jpg" onClick={()=>this.play("scissors")}/>
-                <img className="BBB R" src="/download.jpg" onClick={()=>this.play("rock")}/>
-                <img className="BBB P" src="/download.jpg" onClick={()=>this.play("paper")}/>
+                <img className="BBB S img-big" src="/download-removebg-preview.png" onClick={()=>this.play("scissors")}/>
+                <img className="BBB R img-big" src="/download-removebg-preview.png" onClick={()=>this.play("rock")}/>
+                <img className="BBB P img-big" src="/download-removebg-preview.png" onClick={()=>this.play("paper")}/>
             </div>
         </div>
         )

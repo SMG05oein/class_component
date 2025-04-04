@@ -45,6 +45,15 @@
   width: 200px;
   object-fit: cover;
   overflow: hidden;
+  
+}
+
+.img-big{
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.img-big:hover{
+  transform: scale(1.1);
 }
 
 .R{
@@ -60,8 +69,8 @@
 .P{
   clip-path: inset(0 15px 0 124px);
   right: 190px;
-
 }
+
 .win{
   /* border:3px solid blue; */
   color: blue;
